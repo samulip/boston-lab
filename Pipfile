@@ -10,6 +10,8 @@ notebook = "*"
 ipykernel = "*"
 nbdime = "*"
 boston = {editable = true,path = "."}
+pytest = "*"
+ipytest = "*"
 
 [requires]
 python_version = "3.7"
