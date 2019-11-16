@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "11680392af867ca1279df3c4bf218bf6db317a78be31f0112320d2e7520b04f7"
+            "sha256": "0bdc0c4028277a7347ce54f4b5a88cd6e7129ba4ddd51632e759171accbb5b2b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -44,6 +44,10 @@
                 "sha256:3fdf7f77adcf649c9911387df51254b813185e32b2c6619f690b593a617e19fa"
             ],
             "version": "==3.1.0"
+        },
+        "boston": {
+            "editable": true,
+            "path": "."
         },
         "certifi": {
             "hashes": [

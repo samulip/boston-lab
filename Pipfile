@@ -9,6 +9,7 @@ verify_ssl = true
 notebook = "*"
 ipykernel = "*"
 nbdime = "*"
+boston = {editable = true,path = "."}
 
 [requires]
 python_version = "3.7"
