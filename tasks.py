@@ -1,5 +1,6 @@
 from invoke import task
 
+
 @task()
 def precommit(c):
     format(c)
@@ -15,4 +16,3 @@ def format(c):
 def test(c):
     c.run("pytest tests")
     c.run("pytest --nbval-lax notebooks/*.ipynb")
-
