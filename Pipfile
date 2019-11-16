@@ -12,6 +12,13 @@ nbdime = "*"
 boston = {editable = true,path = "."}
 pytest = "*"
 ipytest = "*"
+invoke = "*"
+black = "==19.10b0"
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+precommit = "invoke precommit"
+format = "invoke format"
+test = "invoke test"
