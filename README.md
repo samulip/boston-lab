@@ -1,6 +1,28 @@
 # boston-lab
 An excercise for a workflow in Jupyter. Name refers to the Boston Housing dataset from Sklearn used in the code snippets organized in this excercise.
 
+# Layout
+
+`/notebooks`
+: Contains all notebooks with analyses and high level presentation
+
+`/src`
+: Contains modules with code matured out from notebooks and ready for production / reuse
+
+`/test`
+: Contains pytest modules for above code in normal unit testing fashion. With ipytest, testing can also be done inside notebooks. The pytest plugin nbval allows for testing of notebooks for integration.
+
+Control files
+: These contain
+* `.gitattributes` with changes from nbdime installation for better diff/merge for notebooks
+* `.gitignore` 
+* `Pipfile` with the asctract requirements without exact versions
+* `Pipfile.lock` with concrete requirements down to version level so that virtual env can be recreated with `pipenv sync --dev`
+* `setup.py` with a definition of the local module ready to be used py `pipenv install -e .`
+* `tasks.py` with definitions for the invoke targets
+
+
+
 # References
 
 This excercise is based on two blog post from November 2018:
