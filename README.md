@@ -53,4 +53,8 @@ Invoke task "test" linked to Pipfile and precommit but does not invoke separate 
 
 Does not use PyScaffold for now.
 
+# Todo
+
+- [ ] Remote execution
+- [ ] Version control from inside lab and other extensions
 
